@@ -1,0 +1,156 @@
+==============================================================================
+=       W e l c o m e   t o   n a n o   t u t o r   -   Version: 0.1.0       =
+==============================================================================
+
+NOTE: This is unofficial and still in progress!
+
+# Preface
+
+nano is a simple editor. You may use it easily without any troubles. On the
+other hand, it has more useful shortcuts than you expected. Let's practice!
+
+These lessons take 15~20min to complete.
+
+This is inspired by vimtutor, the tutorial lessons to learn Vim commands.
+
+NOTE: Some lessons modify this text. Make sure you have a copy of original
+text file! If you start `nanotutor`, this is already a copy.
+
+# Lesson 1: Moving the cursor
+## 1.1: Basic
+
+You can move the cursor by arrow keys `[up]` `[down]` `[left]` `[right]`.
+Using `[down]` key, move to lesson 1.2.
+
+## 1.2: Move farther
+
+Tired of typing? With `ctrl + (arrow key) , you can move farther.
+
+ctrl + [up]    : to previous block
+ctrl + [down]  : to next block
+ctrl + [left]  : to previous word
+ctrl + [right] : to next word
+
+Using `Ctrl + [down]` key, move to lesson 1.3.
+
+## 1.3: Move to the top/end
+
+NOTE: read the entire lesson before typing these shortcuts!
+
+alt + \ : to the top of this text
+alt + / : to the end of this text
+
+Try these shortcuts and then go on to Lesson 2.
+
+# Lesson 2: Exit nano
+## 2.1: Exit
+
+NOTE: read the entire lesson before typing these shortcuts!
+
+Exit nano by `ctrl + x`. You may be asked if you want to save modified text.
+Then get back here by executing `nanotutor` command.
+
+# Lesson 3: Editing
+## 3.1: Cut and paste buffer
+
+ctrl + k : cut current line into buffer
+ctrl + u : paste contents from buffer
+
+Sort the lines below in order.
+
+4. fox
+1. The
+7. the
+8. lazy
+3. brown
+9. dog
+5. jumps
+6. over
+2. quick
+
+## 3.2: Copy buffer
+
+You can copy lines instead of cutting them.
+
+alt + 6 : copy current line into buffer
+
+Copy the second line several times to make this building higher.
+
+========
+| H  H |
+========
+
+## 3.3: Undo and redo actions
+
+alt + u : undo last action
+alt + e : redo last undone action
+
+Delete the word below, then undo and redo the action.
+
+> Lorem ipsum dolor sit amet.
+
+# Lesson 4: Search and replace
+## 4.1: Jump to the specified line
+
+NOTE: read the entire lesson before typing these shortcuts!
+
+alt + g : go to specified line
+
+Jump to line 50. Then jump to line 97 to move back here.
+
+## 4.2: Go to the complementary bracket
+
+alt + ] : go to complementary bracket
+
+Move the cursor to just before the any open bracket `[`, `(`, `{` and jump to the corresponding close bracket.
+
+```
+(()=>{console.log(["a"][0])})()
+```
+
+## 4.3: Search
+
+ctrl + w : start forward search 
+ctrl + q : start backward search
+
+Once you started a search, you can use these shortcuts to jump to occurrences.
+
+alt + w : find next occurrence
+alt + q : find previous occurrence
+
+Search the word `Lesson`.
+
+## 4.4: Replace
+
+alt + r : start a replacing session
+
+Replace capital H with lower case h.
+
+> SHe sells seasHells by tHe seasHore.
+
+# Lesson 5: Show information
+## 5.1: Show line numbers
+
+alt + n : turn line numbers on/off
+
+Show the line numbers on the left. What is the number of this line?
+
+If you always want to show it, add `set linenumbers` to `~/.nanorc`.
+
+## 5.2: Report cursor position
+
+ctrl + c : report cursor position
+
+Show the current cursor position. If you move the cursor, does the report change?
+
+## 5.3: Show help
+
+ctrl + g : open help document
+
+There are still many more shortcuts in nano. See official help to learn more shortcuts.
+
+# Congratulations!
+
+That's all for the lessons. I hope you have become more familiar with nano.
+
+Official [cheatsheet](https://www.nano-editor.org/dist/latest/cheatsheet.html) will also help you.
