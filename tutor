@@ -1,5 +1,5 @@
 ==============================================================================
-=       W e l c o m e   t o   n a n o   t u t o r   -   Version: 0.1.0       =
+=       W e l c o m e   t o   n a n o   t u t o r   -   Version: 0.2.0       =
 ==============================================================================
 
 NOTE: This is unofficial and still in progress!
@@ -148,6 +148,27 @@ Show the current cursor position. If you move the cursor, does the report change
 ctrl + g : open help document
 
 There are still many more shortcuts in nano. See official help to learn more shortcuts.
+
+## Lesson 6. Macros
+### 6.1: Record and replay macros
+
+alt + : : Start or stop recording macro
+alt + ; : replay macro
+
+Append `!` at the end of each sentence.
+
+- 1. move the cursor to the end of the first line
+- 2. start recording
+- 3. append `!` and move to the next line
+- 4. stop recording
+- 5. replay recording until all sentences have `!` at the end
+
+```
+Hello Mike
+Hello John
+Hello Tom
+Hello Bob
+```
 
 # Congratulations!
 
