@@ -1,5 +1,5 @@
 ==============================================================================
-=       W e l c o m e   t o   n a n o   t u t o r   -   Version: 0.2.0       =
+=       W e l c o m e   t o   n a n o   t u t o r   -   Version: 0.3.0       =
 ==============================================================================
 
 NOTE: This is unofficial and still in progress!
@@ -85,7 +85,7 @@ Copy the second line several times to make this building higher.
 alt + u : undo last action
 alt + e : redo last undone action
 
-Delete the word below, then undo and redo the action.
+Delete some words in the sentence below, then undo and redo the action.
 
 > Lorem ipsum dolor sit amet.
 
@@ -96,7 +96,7 @@ NOTE: read the entire lesson before typing these shortcuts!
 
 alt + g : go to specified line
 
-Jump to line 50. Then jump to line 97 to move back here.
+Jump to line 50. Then jump to line 99 to move back here.
 
 ## 4.2: Go to the complementary bracket
 
@@ -128,29 +128,8 @@ Replace capital H with lower case h.
 
 > SHe sells seasHells by tHe seasHore.
 
-# Lesson 5: Show information
-## 5.1: Show line numbers
-
-alt + n : turn line numbers on/off
-
-Show the line numbers on the left. What is the number of this line?
-
-If you always want to show it, add `set linenumbers` to `~/.nanorc`.
-
-## 5.2: Report cursor position
-
-ctrl + c : report cursor position
-
-Show the current cursor position. If you move the cursor, does the report change?
-
-## 5.3: Show help
-
-ctrl + g : open help document
-
-There are still many more shortcuts in nano. See official help to learn more shortcuts.
-
-## Lesson 6. Macros
-### 6.1: Record and replay macros
+## Lesson 5. Macros
+### 5.1: Record and replay macros
 
 alt + : : Start or stop recording macro
 alt + ; : replay macro
@@ -169,6 +148,27 @@ Hello John
 Hello Tom
 Hello Bob
 ```
+
+# Lesson 6: Show information
+## 6.1: Show line numbers
+
+alt + n : turn line numbers on/off
+
+Show the line numbers on the left. What is the number of this line?
+
+If you always want to show it, add `set linenumbers` to `~/.nanorc`.
+
+## 6.2: Report cursor position
+
+ctrl + c : report cursor position
+
+Show the current cursor position. If you move the cursor, does the report change?
+
+## 6.3: Show help
+
+ctrl + g : open help document
+
+There are still many more shortcuts in nano. See official help to learn more shortcuts.
 
 # Congratulations!
 

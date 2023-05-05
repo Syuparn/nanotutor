@@ -38,3 +38,12 @@ This is inspired by vimtutor, the tutorial lessons to learn Vim commands.
 NOTE: Some lessons modify this text. Make sure you have a copy of original
 text file! If you start `nanotutor`, this is already a copy.
 ```
+
+You can also choose other languages.
+
+```bash
+$ nanotutor -h
+Usage of nanotutor:
+  -ja
+        use Japanese Text
+```

@@ -10,14 +10,25 @@ import (
 //go:embed tutor
 var tutorTextBytes []byte
 
-func createTutorFile() (string, error) {
+//go:embed tutor-ja
+var tutorJATextBytes []byte
+
+func createENTutorFile() (string, error) {
+	return createTutorFile(tutorTextBytes)
+}
+
+func createJATutorFile() (string, error) {
+	return createTutorFile(tutorJATextBytes)
+}
+
+func createTutorFile(text []byte) (string, error) {
 	dir := os.TempDir()
 	f, err := os.CreateTemp(dir, "nanotutor_*")
 	if err != nil {
 		return "", fmt.Errorf("failed to create tutor temp file: %w", err)
 	}
 
-	_, err = f.Write(tutorTextBytes)
+	_, err = f.Write(text)
 	if err != nil {
 		return "", fmt.Errorf("failed to initialize tutor temp file: %w", err)
 	}
